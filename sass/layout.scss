@@ -1,0 +1,55 @@
+//----------- Layout ------------------//
+//-------------------------------------//
+
+.grid{
+    float: left;
+    width: 100%;
+    padding: 0 0 3em 0;
+}
+
+.grid__item{
+	float:left;
+}
+
+.grid--two-col{
+
+	.grid__item,
+	.grid__item--one-col{
+
+		width: 50%;
+		padding-right: 2.5em;
+
+			p:nth-child(1),
+			li:nth-child(1){
+				margin-top: 0;
+			}
+
+			@media screen and (max-width: 768px) {
+	            width:100% !important;
+	            padding:0;
+	        }
+	}
+
+	/* Two col with small left col */
+	.grid__item--one-third-col{
+		width: 33.3%;
+	}
+
+	.grid__item--two-third-col{
+		width: 66.6%;
+	}
+
+}
+
+.grid--two-col--{
+
+	.grid__item{
+
+		width: 50%;
+		padding-right: 2.5em;
+
+			p:nth-child(1){
+				margin-top: 0;
+			}
+	}
+}
