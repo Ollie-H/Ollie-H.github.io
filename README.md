@@ -1,7 +1,7 @@
 Responsive-CV
 =============
 
-Simple Responsive CV, easy to edit and use. I using it myself here - [Preview](http://www.olliehusbanddesign.co.uk/cv)
+Simple Responsive CV, easy to edit and use. Using it myself here - [Preview](http://www.olliehusbanddesign.co.uk/cv)
 
 ###Features
 
