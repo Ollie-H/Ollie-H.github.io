@@ -648,21 +648,15 @@ hr {
 .popup h1, .popup h2, .popup h3, .popup p {
   color: #222;
 }
-@media screen and (max-width: 800px) {
-  /* line 193, ../scss/src/_base.scss */
-  .popup {
-    position: absolute;
-  }
-}
 
-/* line 207, ../scss/src/_base.scss */
+/* line 204, ../scss/src/_base.scss */
 .popup__inner {
   position: relative;
   padding: 15% 0;
   float: left;
 }
 
-/* line 213, ../scss/src/_base.scss */
+/* line 210, ../scss/src/_base.scss */
 .popup__close {
   position: absolute;
   top: 5%;
@@ -672,7 +666,7 @@ hr {
   z-index: 999;
 }
 
-/* line 222, ../scss/src/_base.scss */
+/* line 219, ../scss/src/_base.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -681,7 +675,7 @@ hr {
   padding: 0;
   margin: 0;
 }
-/* line 229, ../scss/src/_base.scss */
+/* line 226, ../scss/src/_base.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -691,13 +685,13 @@ hr {
   top: 0;
   list-style: none;
 }
-/* line 237, ../scss/src/_base.scss */
+/* line 234, ../scss/src/_base.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 243, ../scss/src/_base.scss */
+/* line 240, ../scss/src/_base.scss */
 .rslides li img,
 .rslides li video {
   display: block;
@@ -708,16 +702,16 @@ hr {
   padding: 3px;
 }
 
-/* line 255, ../scss/src/_base.scss */
+/* line 252, ../scss/src/_base.scss */
 .rslides_tabs li {
   display: inline-block;
   list-style: none;
 }
-/* line 259, ../scss/src/_base.scss */
+/* line 256, ../scss/src/_base.scss */
 .rslides_tabs li.rslides_here a {
   background: #12a9b2;
 }
-/* line 264, ../scss/src/_base.scss */
+/* line 261, ../scss/src/_base.scss */
 .rslides_tabs a {
   float: left;
   width: 10px;
@@ -733,29 +727,29 @@ hr {
 }
 
 /* Video player */
-/* line 277, ../scss/src/_base.scss */
+/* line 274, ../scss/src/_base.scss */
 .vjs-default-skin {
   color: #ffffff;
 }
 
-/* line 279, ../scss/src/_base.scss */
+/* line 276, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-play-progress,
 .vjs-default-skin .vjs-volume-level {
   background-color: white;
 }
 
-/* line 281, ../scss/src/_base.scss */
+/* line 278, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-control-bar,
 .vjs-default-skin .vjs-big-play-button {
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* line 282, ../scss/src/_base.scss */
+/* line 279, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-slider {
   background: rgba(255, 255, 255, 0.23333);
 }
 
-/* line 283, ../scss/src/_base.scss */
+/* line 280, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-control-bar {
   font-size: 77%;
 }
