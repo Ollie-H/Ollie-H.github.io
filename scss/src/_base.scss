@@ -1,0 +1,283 @@
+/* Base styles */
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin:0;padding:0;
+}
+
+img{
+    max-width: 100%;
+}
+
+section{
+    padding: 3em 0 3em 0;
+}
+
+.container{
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 2em 0px 2em;    
+
+        &:before,
+        &:after{  
+            content: "";
+            display:table;
+            clear: both;
+        }
+        @media screen and (max-width: 768px) {
+            width:100%;
+        }
+}
+
+header, footer{
+   float: left;
+   width: 100%;
+   background: $primary;
+   padding: 2em 0;
+   text-align: center;
+
+        span, a{
+            color: $secondary;
+            border-color: $secondary;
+            font-size: 0.9em;
+        }
+
+        @media screen and (max-width: 768px) {
+            width:100%;
+        }
+
+        &.banner{
+            display: table;
+            background: url('../img/cover.jpg') no-repeat;
+            background-size: cover;
+                .container{
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                .arrow{
+                    position: absolute;
+                    display: block;
+                    z-index: 999; 
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 8%;
+                    width: 70px;
+                    height: 70px;
+                    border: 2px solid #fff;
+                    @include border-radius(50%);
+                    margin: 25% auto 0 auto;
+                    background: rgba(0,0,0,0.4);
+                        img{
+                            padding: 25px 0 0 0;
+                        }
+                }
+        }
+}
+
+footer{
+    margin: 2em 0 0 0;
+    float: left;
+    padding: 10px 0px;
+    color: #fff;
+    text-align: left;
+
+}
+
+main{
+   float:left;
+   width: 100%;
+   padding: 3em 0;
+}
+
+/* Header styles */
+
+header .contact{
+    padding: 2em 0 0 0;
+    width: 50%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        width:100%;
+    }
+}
+
+header .contact .address{
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0 0 0.666em 0;
+    display: block;
+}
+
+/* Horizontal rule - use anywhere */
+
+hr{
+    margin: 2em 0 3em 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Drop down - used for work */
+
+.toggle-dropdown{
+    @if $show-projects-on-load == false{
+        display: inline;
+    }
+    @else{
+        display: none;
+    }
+}
+
+.dropdown{
+    margin-top: 30px;
+    @if $show-projects-on-load == true{
+        display: block;
+    }
+    @else{
+        display: none;
+    }
+
+        li{
+            list-style: none;
+            padding: 0 20px 20px 20px;
+            border-left: 10px solid lighten($primary,  2);
+            margin:0;
+
+                &:nth-child(2n){
+                    border-color: lighten($primary,  15);
+                }
+        }
+}
+
+.work{
+    .work__item{
+        cursor: pointer;
+        img{
+            display: block;
+            width: 100%;
+        }
+        &:hover{
+            .hover{
+                opacity: 1;
+            }
+        }
+        .work__inner{
+            position: relative;
+            display: block;
+            overflow: hidden;
+        }
+        .hover{
+            position: absolute;
+            left:0;right:0;top:0;bottom:0;
+            background: rgba(0,0,0,0.4);
+            opacity: 0;
+            @include transition(opacity 0.3s linear);
+                span{
+                    position: absolute;
+                    top:0;bottom:0;
+                    left:0;right:0;
+                    margin: auto;
+                    height: 40px;
+                    display: block;
+                    max-width: 80%;
+                    text-align: center;
+                    color: #fff;
+                    font-weight: bold;
+                }
+        }
+    }   
+}
+
+.popup{
+    position: fixed;
+    background: #efefef;
+    top:0;right:0;bottom:0;left:0;
+    display: none;
+    z-index: 9999;
+    h1,h2,h3,p{
+        color: #222;
+    }
+    @media screen and (max-width: 800px) {
+        position: absolute;
+    }
+}
+
+.popup__inner{
+    position: relative;
+    padding: 15% 0;
+    float: left;
+}
+
+.popup__close{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 40px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+        li {
+            -webkit-backface-visibility: hidden;
+            position: absolute;
+            display: none;
+            width: 100%;
+            left: 0;
+            top: 0;
+            list-style: none;
+                &:first-child {
+                    position: relative;
+                    display: block;
+                    float: left;
+                }
+                img,
+                video {
+                    display: block;
+                    height: auto;
+                    float: left;
+                    width: 100%;
+                    border: 0;
+                    padding: 3px;
+                }
+        }
+}
+
+.rslides_tabs{
+    li{
+        display: inline-block;
+        list-style: none;
+            &.rslides_here{
+                a{
+                    background: $link-color;
+                }
+            }
+    }
+    a{
+        
+        float: left;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px 0 0;
+        @include border-radius(50%);
+        background: #000;
+        text-indent: -999px;
+    }
+}
+
+/* Video player */
+.vjs-default-skin { color: #ffffff; }
+.vjs-default-skin .vjs-play-progress,
+.vjs-default-skin .vjs-volume-level { background-color: #ffffff }
+.vjs-default-skin .vjs-control-bar,
+.vjs-default-skin .vjs-big-play-button { background: rgba(255,255,255,0.7) }
+.vjs-default-skin .vjs-slider { background: rgba(255,255,255,0.2333333333333333) }
+.vjs-default-skin .vjs-control-bar { font-size: 77% }

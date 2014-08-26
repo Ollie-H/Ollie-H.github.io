@@ -1,0 +1,175 @@
+//----------- Typography --------------//
+//-------------------------------------//
+
+body{
+    font: 200 15px/25px $fontname;
+
+        @media screen and (max-width: 768px) {
+            font: 200 13px/18px $fontname;
+        }
+}
+
+h1{
+    color: #fff;
+    font: 600 4em $fontname;
+    margin: 0 0 1.2em 0;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #fff;
+    font: 600 1.6666em/1.6666em $fontname;
+    text-transform: uppercase;
+}
+
+.header{
+    color: #fff;
+    font: 600 1.333em/1.333em $fontname;    
+    text-transform: uppercase;
+}
+
+h3{
+    @extend .header;
+}
+
+h4, h5{
+    text-align: left;    
+    font: 600 1em/1em "open sans";
+    margin: 0 0 1em 0;
+}
+
+.header--title{
+
+    @extend .header;
+    color: $font-colour;
+    width: 60%;
+    margin: 1.666em 20% 1.333em 20%;
+    border-top: 2px solid #222;
+    @extend .text--center;
+
+
+
+        @media screen and (max-width: 768px) {
+            width:100%;
+            margin:0;
+        }
+
+        .header--title__text{
+            position: relative;
+            top:-1em;
+            padding: 0.666em 1.333em;
+            background:  #fff;
+        }
+}
+
+
+a{
+    /* Default anchor styling */
+    color: $link-color;
+    text-decoration: none;
+    padding: 0 0 2px 0;
+    border-bottom: 1px dotted $link-color;
+
+        /* Inverse anchors */
+        &.a--inverse{
+
+            color: $link-hover-color;
+            border-color: $link-hover-color;
+        }
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+
+dfn {
+    font-style: italic;
+}
+
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+q {
+    quotes: none;
+}
+
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+small {
+    font-size: 80%;
+}
+
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+ul li{
+    list-style: inside;
+    margin: 1em 0;
+}
+
+date{
+    font-style: italic;
+    color: #999;
+}

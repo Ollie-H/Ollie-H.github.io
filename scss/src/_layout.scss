@@ -1,0 +1,50 @@
+//----------- Layout ------------------//
+//-------------------------------------//
+
+.grid__item{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  padding-right: 30px;
+  @media screen and (max-width: 800px) {
+  	width: 100% !important;
+  }	
+  &.work__item{
+  	padding-right: 10px;
+  	padding-bottom: 10px;
+  }
+  @for $item1 from 1 through 5{
+    @for $item from 1 through $item1{ 
+      &.grid__item--#{$item}-#{$item1}{
+        $margin : 0;
+        width: 100% / ($item1 / $item) - $margin;
+        @if $item == $item1{
+          margin-right:0;
+          border:0;
+          &:after{
+            content: "";
+            display: table;
+            clear: left;
+          }
+        } 
+      }
+    }
+  }
+  &.grid__item--last,
+  &.grid__item--full{
+     margin-right:0;
+     border:0;
+     &:after{
+       content: "";
+       display: table;
+       clear: left;
+     }
+  }
+  &.grid__item--first{
+  	clear: left;
+  }
+  &.no-border{
+    border:0;
+  }
+ }
