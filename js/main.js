@@ -28,6 +28,7 @@ var self, cv = {
 		{
 			id : '2',
 			name: 'Honda Accessories',
+			url : 'http://www.civictoureraccessories.com/',
 			description: '',
 			case_study: 'Parallax microsite for Honda accesssories created using front end technologies (JS, CSS, HTML, JSON). Including locale specific pricing and languages using JSON as data storage. Basic mobile solutions using responsive JS and media queries.',
 			assets: [
@@ -44,6 +45,7 @@ var self, cv = {
 		{
 			id : '3',
 			name: 'Saddington Baynes',
+			url : 'http://saddingtonbaynes.com',
 			description: '',
 			case_study: 'Custom agency site and corresponding CMS for agency Saddington Baynes. Built using (JS, SASS, HTML, PHP, MySQL). The site was very well recieved and on launch recieved a honourable mention award from Awwwards after recieving an average judge score of 8/10 for content/design and build.',
 			assets: [
@@ -60,6 +62,7 @@ var self, cv = {
 		{
 			id : '4',
 			name: 'Leland Music',
+			url : 'http://www.lelandmusic.co.uk/',
 			description: '',
 			case_study: 'Custom portfolio site for independent music agency Leland Music. Built using front end technologies (JS, CSS, HTML) and backend technolgies (PHP, MySQL).',
 			assets: [
@@ -80,6 +83,7 @@ var self, cv = {
 		{
 			id : '5',
 			name: 'David Titlow',
+			url : 'http://davidtitlow.co.uk',
 			description: '',
 			case_study: 'Custom portfolio site celebrity photographer David Titlow built using JS, SASS, HTML, PHP. Site uses a scroll hijacking method of navigation to get around the page.',
 			assets: [
@@ -100,6 +104,7 @@ var self, cv = {
 		{
 			id : '6',
 			name: 'Infiniti',
+			url : 'http://infiniti.eu/configurator',
 			description: '',
 			case_study: 'Online responsive configurator for luxury car brand Infiniti with corresponding custom CMS. The front end application was made using front end technologies (JS/BACKBONE, Grunt, sass, require) abd the cms using php/Slimphp, composer and bootstrap. This large scale project involved a complicated backend system and intelligent mechanics on the front end to quickly and efficiently allow the user to configure their vehicle. Backbone/Marrionette MVW architecture was chosen for this project as it allowed me to keep a single page application and communicate easily with the RESTful API I put in place.',
 			assets: [
@@ -120,6 +125,7 @@ var self, cv = {
 		{
 			id : '7',
 			name: 'Board Intelligence',
+			url : 'http://www.boardintelligence.co.uk/',
 			description: '',
 			case_study: 'Custom resonsive site build for board intelligence.',
 			assets: [
@@ -140,6 +146,7 @@ var self, cv = {
 		{
 			id : '8',
 			name: 'My Codepen\'s',
+			url : 'http://codepen.io/OllieHDev/',
 			description: '',
 			case_study: 'I love creating and trying out new things with code to see its limtations and what can be achieved. So codepen has been a big help along the way. Here\'s a few of my more favourite codepens <br /> <a href="http://codepen.io/OllieHDev/live/fkaig">Time with words</a> <br /> <a href="http://codepen.io/OllieHDev/live/fvdoh">CSS switches</a> <br /> <a href="http://codepen.io/OllieHDev/live/owIGF">CSS Camera</a> <br /> <a href="http://codepen.io/OllieHDev/live/iCjIJ">Rodeo competition winner 2013</a>',
 			assets: [
@@ -203,13 +210,13 @@ var self, cv = {
 			cv.bindEvents();
 			$(".rslides").responsiveSlides({
 				pager : true, auto : false
-			});
+			}); 
 		});
 	},
 	renderTemplate: function(work){
 		var template = _.template(popupTemplate);
 		return template(work);
-	}
+	} 
 };
 
 var popupTemplate =
@@ -220,7 +227,8 @@ var popupTemplate =
 <div class="grid__item grid__item--2-5">\
 <h2 class="title"><%= name %></h2>
 <h4 class="desc"><%= description %></h4>
-<p class="case"><%= _.unescape(case_study) %></p>
+<p class="case"><%= _.unescape(case_study) %><br /></p>
+<p><a href="<%= url %>" target="_blank"><%= url %></a></p>
 </div>\
 <div class="grid__item grid__item--3-5">\
 <ul class="rslides">
