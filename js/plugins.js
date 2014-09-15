@@ -61,7 +61,7 @@
       "after": $.noop           // Function: After callback
     }, options);
 
-    return this.each(function () {
+    return this.each(function(){
 
       // Index for namespacing
       i++;
