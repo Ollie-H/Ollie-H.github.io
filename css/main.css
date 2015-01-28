@@ -40,7 +40,7 @@ h4, h5 {
 
 /* line 41, ../scss/src/_typography.scss */
 .header--title {
-  color: #666666;
+  color: #666;
   width: 60%;
   margin: 1.666em 20% 1.333em 20%;
   border-top: 2px solid #222;
@@ -63,19 +63,19 @@ h4, h5 {
 /* line 66, ../scss/src/_typography.scss */
 a {
   /* Default anchor styling */
-  color: #12a9b2;
+  color: #12A9B2;
   text-decoration: none;
   padding: 0 0 2px 0;
-  border-bottom: 1px dotted #12a9b2;
+  border-bottom: 1px dotted #12A9B2;
   /* Inverse anchors */
 }
 /* line 74, ../scss/src/_typography.scss */
 a.a--inverse {
-  color: white;
-  border-color: white;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
-/* line 82, ../scss/src/_typography.scss */
+/* line 81, ../scss/src/_typography.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -86,7 +86,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 93, ../scss/src/_typography.scss */
+/* line 92, ../scss/src/_typography.scss */
 b,
 strong {
   font-weight: bold;
@@ -115,7 +115,7 @@ mark {
   color: #000;
 }
 
-/* line 122, ../scss/src/_typography.scss */
+/* line 121, ../scss/src/_typography.scss */
 p,
 pre {
   margin: 1em 0;
@@ -133,7 +133,7 @@ q {
   quotes: none;
 }
 
-/* line 140, ../scss/src/_typography.scss */
+/* line 139, ../scss/src/_typography.scss */
 q:before,
 q:after {
   content: '';
@@ -145,7 +145,7 @@ small {
   font-size: 80%;
 }
 
-/* line 152, ../scss/src/_typography.scss */
+/* line 151, ../scss/src/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -400,7 +400,7 @@ date {
   display: table;
   clear: left;
 }
-/* line 35, ../scss/src/_layout.scss */
+/* line 34, ../scss/src/_layout.scss */
 .grid__item.grid__item--last, .grid__item.grid__item--full {
   margin-right: 0;
   border: 0;
@@ -447,7 +447,7 @@ section {
   margin: 0 auto;
   padding: 0 2em 0px 2em;
 }
-/* line 25, ../scss/src/_base.scss */
+/* line 24, ../scss/src/_base.scss */
 .container:before, .container:after {
   content: "";
   display: table;
@@ -470,8 +470,8 @@ header, footer {
 }
 /* line 42, ../scss/src/_base.scss */
 header span, header a, footer span, footer a {
-  color: white;
-  border-color: white;
+  color: #fff;
+  border-color: #fff;
   font-size: 0.9em;
 }
 @media screen and (max-width: 768px) {
@@ -503,10 +503,8 @@ header.banner .arrow, footer.banner .arrow {
   width: 70px;
   height: 70px;
   border: 2px solid #fff;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 25% auto 0 auto;
   background: rgba(0, 0, 0, 0.4);
@@ -612,9 +610,9 @@ hr {
   bottom: 0;
   background: rgba(0, 0, 0, 0.4);
   opacity: 0;
-  -webkit-transition: opacity 0.3s linear;
   -moz-transition: opacity 0.3s linear;
   -o-transition: opacity 0.3s linear;
+  -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
 /* line 177, ../scss/src/_base.scss */
@@ -691,7 +689,7 @@ hr {
   display: block;
   float: left;
 }
-/* line 240, ../scss/src/_base.scss */
+/* line 239, ../scss/src/_base.scss */
 .rslides li img,
 .rslides li video {
   display: block;
@@ -709,7 +707,7 @@ hr {
 }
 /* line 256, ../scss/src/_base.scss */
 .rslides_tabs li.rslides_here a {
-  background: #12a9b2;
+  background: #12A9B2;
 }
 /* line 261, ../scss/src/_base.scss */
 .rslides_tabs a {
@@ -717,10 +715,8 @@ hr {
   width: 10px;
   height: 10px;
   margin: 0 5px 0 0;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
   background: #000;
   text-indent: -999px;
@@ -732,13 +728,13 @@ hr {
   color: #ffffff;
 }
 
-/* line 276, ../scss/src/_base.scss */
+/* line 275, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-play-progress,
 .vjs-default-skin .vjs-volume-level {
-  background-color: white;
+  background-color: #ffffff;
 }
 
-/* line 278, ../scss/src/_base.scss */
+/* line 277, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-control-bar,
 .vjs-default-skin .vjs-big-play-button {
   background: rgba(255, 255, 255, 0.7);

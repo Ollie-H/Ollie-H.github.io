@@ -163,6 +163,32 @@ var self, cv = {
 					type : 'img'
 				}
 			]
+		},
+		{
+			id : '9',
+			name: 'Eagle Moss',
+			url : 'http://eaglemoss.com',
+			description: '',
+			case_study: 'Working for Saatchi & Saatchi, London, I created the front end for the magazine company eaglemoss. Using HTML/JS/Grunt/Less',
+			assets: [
+				{
+					url : 'img/eagle-1.png',
+					type : 'img'
+				}
+			]
+		},
+		{
+			id : '10',
+			name: 'The door',
+			url : 'http://thedoor.saatchi.co.uk',
+			description: '',
+			case_study: 'Working for Saatchi & Saatchi, London, I created the online application for the saatchi grad scheme. Using JS/backbone/Underscore/grunt/sass',
+			assets: [
+				{
+					url : 'img/thedoor-1.png',
+					type : 'img'
+				}
+			]
 		}
 	],
 	init: function(){
