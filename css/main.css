@@ -555,53 +555,55 @@ header .contact .address {
 /* Horizontal rule - use anywhere */
 /* line 117, ../scss/src/_base.scss */
 hr {
+  float: left;
+  width: 100%;
   margin: 2em 0 3em 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* Drop down - used for work */
-/* line 124, ../scss/src/_base.scss */
+/* line 126, ../scss/src/_base.scss */
 .toggle-dropdown {
   display: none;
 }
 
-/* line 133, ../scss/src/_base.scss */
+/* line 135, ../scss/src/_base.scss */
 .dropdown {
   margin-top: 30px;
   display: block;
 }
-/* line 142, ../scss/src/_base.scss */
+/* line 144, ../scss/src/_base.scss */
 .dropdown li {
   list-style: none;
   padding: 0 20px 20px 20px;
   border-left: 10px solid #9baaab;
   margin: 0;
 }
-/* line 148, ../scss/src/_base.scss */
+/* line 150, ../scss/src/_base.scss */
 .dropdown li:nth-child(2n) {
   border-color: #bfc8c9;
 }
 
-/* line 155, ../scss/src/_base.scss */
+/* line 157, ../scss/src/_base.scss */
 .work .work__item {
   cursor: pointer;
 }
-/* line 157, ../scss/src/_base.scss */
+/* line 159, ../scss/src/_base.scss */
 .work .work__item img {
   display: block;
   width: 100%;
 }
-/* line 162, ../scss/src/_base.scss */
+/* line 164, ../scss/src/_base.scss */
 .work .work__item:hover .hover {
   opacity: 1;
 }
-/* line 166, ../scss/src/_base.scss */
+/* line 168, ../scss/src/_base.scss */
 .work .work__item .work__inner {
   position: relative;
   display: block;
   overflow: hidden;
 }
-/* line 171, ../scss/src/_base.scss */
+/* line 173, ../scss/src/_base.scss */
 .work .work__item .hover {
   position: absolute;
   left: 0;
@@ -615,7 +617,7 @@ hr {
   -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
 }
-/* line 177, ../scss/src/_base.scss */
+/* line 179, ../scss/src/_base.scss */
 .work .work__item .hover span {
   position: absolute;
   top: 0;
@@ -631,7 +633,7 @@ hr {
   font-weight: bold;
 }
 
-/* line 193, ../scss/src/_base.scss */
+/* line 195, ../scss/src/_base.scss */
 .popup {
   position: fixed;
   background: #efefef;
@@ -642,19 +644,19 @@ hr {
   display: none;
   z-index: 9999;
 }
-/* line 199, ../scss/src/_base.scss */
+/* line 201, ../scss/src/_base.scss */
 .popup h1, .popup h2, .popup h3, .popup p {
   color: #222;
 }
 
-/* line 204, ../scss/src/_base.scss */
+/* line 206, ../scss/src/_base.scss */
 .popup__inner {
   position: relative;
   padding: 15% 0;
   float: left;
 }
 
-/* line 210, ../scss/src/_base.scss */
+/* line 212, ../scss/src/_base.scss */
 .popup__close {
   position: absolute;
   top: 5%;
@@ -664,7 +666,7 @@ hr {
   z-index: 999;
 }
 
-/* line 219, ../scss/src/_base.scss */
+/* line 221, ../scss/src/_base.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -673,7 +675,7 @@ hr {
   padding: 0;
   margin: 0;
 }
-/* line 226, ../scss/src/_base.scss */
+/* line 228, ../scss/src/_base.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -683,13 +685,13 @@ hr {
   top: 0;
   list-style: none;
 }
-/* line 234, ../scss/src/_base.scss */
+/* line 236, ../scss/src/_base.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 239, ../scss/src/_base.scss */
+/* line 241, ../scss/src/_base.scss */
 .rslides li img,
 .rslides li video {
   display: block;
@@ -700,16 +702,16 @@ hr {
   padding: 3px;
 }
 
-/* line 252, ../scss/src/_base.scss */
+/* line 254, ../scss/src/_base.scss */
 .rslides_tabs li {
   display: inline-block;
   list-style: none;
 }
-/* line 256, ../scss/src/_base.scss */
+/* line 258, ../scss/src/_base.scss */
 .rslides_tabs li.rslides_here a {
   background: #12A9B2;
 }
-/* line 261, ../scss/src/_base.scss */
+/* line 263, ../scss/src/_base.scss */
 .rslides_tabs a {
   float: left;
   width: 10px;
@@ -723,29 +725,29 @@ hr {
 }
 
 /* Video player */
-/* line 274, ../scss/src/_base.scss */
+/* line 276, ../scss/src/_base.scss */
 .vjs-default-skin {
   color: #ffffff;
 }
 
-/* line 275, ../scss/src/_base.scss */
+/* line 277, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-play-progress,
 .vjs-default-skin .vjs-volume-level {
   background-color: #ffffff;
 }
 
-/* line 277, ../scss/src/_base.scss */
+/* line 279, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-control-bar,
 .vjs-default-skin .vjs-big-play-button {
   background: rgba(255, 255, 255, 0.7);
 }
 
-/* line 279, ../scss/src/_base.scss */
+/* line 281, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-slider {
   background: rgba(255, 255, 255, 0.23333);
 }
 
-/* line 280, ../scss/src/_base.scss */
+/* line 282, ../scss/src/_base.scss */
 .vjs-default-skin .vjs-control-bar {
   font-size: 77%;
 }

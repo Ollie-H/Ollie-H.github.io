@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', '-g', 'install', 'yuidocjs' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'yuidocjs', null ]
+5 verbose cache add name=undefined spec="yuidocjs" args=["yuidocjs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yuidocjs',
+6 verbose parsed url   path: 'yuidocjs',
+6 verbose parsed url   href: 'yuidocjs' }
+7 silly lockFile 604a54ee-yuidocjs yuidocjs
+8 verbose lock yuidocjs /\Volumes\Data\Users\/ollhusba/.npm/604a54ee-yuidocjs.lock
+9 silly lockFile 604a54ee-yuidocjs yuidocjs
+10 silly lockFile 604a54ee-yuidocjs yuidocjs
+11 verbose addNamed [ 'yuidocjs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 21cb9463-yuidocjs yuidocjs@
+14 verbose lock yuidocjs@ /\Volumes\Data\Users\/ollhusba/.npm/21cb9463-yuidocjs.lock
+15 silly addNameRange { name: 'yuidocjs', range: '*', hasData: false }
+16 verbose request where is /yuidocjs
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 2b9bf06562f4378d
+19 verbose url raw /yuidocjs
+20 verbose url resolving [ 'https://registry.npmjs.org/', './yuidocjs' ]
+21 verbose url resolved https://registry.npmjs.org/yuidocjs
+22 verbose request where is https://registry.npmjs.org/yuidocjs
+23 info trying registry request attempt 1 at 11:20:30
+24 http GET https://registry.npmjs.org/yuidocjs
+25 http 200 https://registry.npmjs.org/yuidocjs
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Mon, 16 Feb 2015 11:20:30 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"9B295EJ484R4CMQAQFTSZ4A4T"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '156087',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '35',
+26 silly registry.get     'x-served-by': 'cache-ams4134-AMS',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1424085630.617887,VS0,VE0',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'yuidocjs', range: '*', hasData: true }
+28 silly addNameRange versions [ 'yuidocjs',
+28 silly addNameRange   [ '0.2.6',
+28 silly addNameRange     '0.2.7',
+28 silly addNameRange     '0.2.8',
+28 silly addNameRange     '0.2.9',
+28 silly addNameRange     '0.2.10',
+28 silly addNameRange     '0.2.11',
+28 silly addNameRange     '0.2.12',
+28 silly addNameRange     '0.2.13',
+28 silly addNameRange     '0.2.14',
+28 silly addNameRange     '0.2.15',
+28 silly addNameRange     '0.2.16',
+28 silly addNameRange     '0.2.17',
+28 silly addNameRange     '0.2.18',
+28 silly addNameRange     '0.2.19',
+28 silly addNameRange     '0.2.20',
+28 silly addNameRange     '0.2.21',
+28 silly addNameRange     '0.2.22',
+28 silly addNameRange     '0.2.23',
+28 silly addNameRange     '0.2.24',
+28 silly addNameRange     '0.2.25',
+28 silly addNameRange     '0.2.26',
+28 silly addNameRange     '0.2.27',
+28 silly addNameRange     '0.2.28',
+28 silly addNameRange     '0.2.29',
+28 silly addNameRange     '0.2.30',
+28 silly addNameRange     '0.2.31',
+28 silly addNameRange     '0.2.32',
+28 silly addNameRange     '0.2.33',
+28 silly addNameRange     '0.2.34',
+28 silly addNameRange     '0.2.35',
+28 silly addNameRange     '0.2.36',
+28 silly addNameRange     '0.2.37',
+28 silly addNameRange     '0.2.38',
+28 silly addNameRange     '0.2.39',
+28 silly addNameRange     '0.2.40',
+28 silly addNameRange     '0.2.41',
+28 silly addNameRange     '0.2.42',
+28 silly addNameRange     '0.2.43',
+28 silly addNameRange     '0.2.44',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.3.2',
+28 silly addNameRange     '0.3.3',
+28 silly addNameRange     '0.3.4',
+28 silly addNameRange     '0.3.5',
+28 silly addNameRange     '0.3.6',
+28 silly addNameRange     '0.3.7',
+28 silly addNameRange     '0.3.8',
+28 silly addNameRange     '0.3.9',
+28 silly addNameRange     '0.3.10',
+28 silly addNameRange     '0.3.11',
+28 silly addNameRange     '0.3.12',
+28 silly addNameRange     '0.3.13',
+28 silly addNameRange     '0.3.14',
+28 silly addNameRange     '0.3.15',
+28 silly addNameRange     '0.3.16',
+28 silly addNameRange     '0.3.17',
+28 silly addNameRange     '0.3.18',
+28 silly addNameRange     '0.3.19',
+28 silly addNameRange     '0.3.20',
+28 silly addNameRange     '0.3.21',
+28 silly addNameRange     '0.3.22',
+28 silly addNameRange     '0.3.23',
+28 silly addNameRange     '0.3.24',
+28 silly addNameRange     '0.3.25',
+28 silly addNameRange     '0.3.26',
+28 silly addNameRange     '0.3.27',
+28 silly addNameRange     '0.3.28',
+28 silly addNameRange     '0.3.29',
+28 silly addNameRange     '0.3.30',
+28 silly addNameRange     '0.3.31',
+28 silly addNameRange     '0.3.32',
+28 silly addNameRange     '0.3.33',
+28 silly addNameRange     '0.3.34',
+28 silly addNameRange     '0.3.35',
+28 silly addNameRange     '0.3.36',
+28 silly addNameRange     '0.3.37',
+28 silly addNameRange     '0.3.38',
+28 silly addNameRange     '0.3.39',
+28 silly addNameRange     '0.3.40',
+28 silly addNameRange     '0.3.41',
+28 silly addNameRange     '0.3.42',
+28 silly addNameRange     '0.3.43',
+28 silly addNameRange     '0.3.44',
+28 silly addNameRange     '0.3.45',
+28 silly addNameRange     '0.3.46',
+28 silly addNameRange     '0.3.47',
+28 silly addNameRange     '0.3.48',
+28 silly addNameRange     '0.3.49',
+28 silly addNameRange     '0.3.50',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0' ] ]
+29 verbose addNamed [ 'yuidocjs', '0.5.0' ]
+30 verbose addNamed [ '0.5.0', '0.5.0' ]
+31 silly lockFile b6d470ea-yuidocjs-0-5-0 yuidocjs@0.5.0
+32 verbose lock yuidocjs@0.5.0 /\Volumes\Data\Users\/ollhusba/.npm/b6d470ea-yuidocjs-0-5-0.lock
+33 silly lockFile 77454945--org-yuidocjs-yuidocjs-0-5-0-tgz https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz
+34 verbose lock https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz /\Volumes\Data\Users\/ollhusba/.npm/77454945--org-yuidocjs-yuidocjs-0-5-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz',
+35 verbose addRemoteTarball   'e74012a68792c70cf0596fe60fe761e10af59629' ]
+36 info retry fetch attempt 1 at 11:20:30
+37 verbose fetch to= /var/folders/cq/kp4h0cr939s588lpqvvd6jqc0001_4/T/npm-87356-JA5-aj3O/registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz
+38 http GET https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz
+39 http 200 https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz
+40 silly lockFile 77454945--org-yuidocjs-yuidocjs-0-5-0-tgz https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz
+41 silly lockFile 77454945--org-yuidocjs-yuidocjs-0-5-0-tgz https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz
+42 silly lockFile b6d470ea-yuidocjs-0-5-0 yuidocjs@0.5.0
+43 silly lockFile b6d470ea-yuidocjs-0-5-0 yuidocjs@0.5.0
+44 silly lockFile 21cb9463-yuidocjs yuidocjs@
+45 silly lockFile 21cb9463-yuidocjs yuidocjs@
+46 silly resolved [ { name: 'yuidocjs',
+46 silly resolved     version: '0.5.0',
+46 silly resolved     description: 'YUIDoc, YUI\'s JavaScript Documentation engine.',
+46 silly resolved     author: { name: 'Dav Glass', email: 'davglass@gmail.com' },
+46 silly resolved     bugs: { url: 'http://github.com/yui/yuidoc/issues' },
+46 silly resolved     contributors:
+46 silly resolved      [ [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object] ],
+46 silly resolved     engines: { node: '>=0.10.0' },
+46 silly resolved     keywords:
+46 silly resolved      [ 'yui',
+46 silly resolved        'jsdoc',
+46 silly resolved        'coffeescript',
+46 silly resolved        'api',
+46 silly resolved        'documentation',
+46 silly resolved        'javadoc',
+46 silly resolved        'docs',
+46 silly resolved        'apidocs' ],
+46 silly resolved     main: './lib/index',
+46 silly resolved     bin: { yuidoc: './lib/cli.js' },
+46 silly resolved     dependencies:
+46 silly resolved      { express: '^4.10.1',
+46 silly resolved        'graceful-fs': '2.x',
+46 silly resolved        marked: '^0.3.2',
+46 silly resolved        minimatch: '^2.0.1',
+46 silly resolved        rimraf: '2.x',
+46 silly resolved        yui: '^3.18.1' },
+46 silly resolved     devDependencies:
+46 silly resolved      { istanbul: '^0.3.5',
+46 silly resolved        jshint: '2.4.x',
+46 silly resolved        selleck: '~0.1',
+46 silly resolved        ytestrunner: '~0.3.3',
+46 silly resolved        yuitest: '>=0.7.3' },
+46 silly resolved     scripts:
+46 silly resolved      { pretest: 'jshint ./lib/*.js ./tests/*.js',
+46 silly resolved        test: 'istanbul cover --print=both --yui ytestrunner -- --include ./tests/options.js --include ./tests/builder.js --include ./tests/parser.js --include ./tests/parser_coffee.js --include ./tests/files.js --include ./tests/utils.js --include ./tests/preprocessor.js' },
+46 silly resolved     preferGlobal: 'true',
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     repository: { type: 'git', url: 'http://github.com/yui/yuidoc.git' },
+46 silly resolved     jshintConfig:
+46 silly resolved      { bitwise: true,
+46 silly resolved        browser: true,
+46 silly resolved        curly: true,
+46 silly resolved        eqeqeq: true,
+46 silly resolved        forin: true,
+46 silly resolved        immed: true,
+46 silly resolved        latedef: 'nofunc',
+46 silly resolved        laxbreak: true,
+46 silly resolved        maxerr: 500,
+46 silly resolved        maxlen: 150,
+46 silly resolved        newcap: true,
+46 silly resolved        noarg: true,
+46 silly resolved        node: true,
+46 silly resolved        noempty: true,
+46 silly resolved        onevar: true,
+46 silly resolved        trailing: true,
+46 silly resolved        undef: true,
+46 silly resolved        unused: 'vars',
+46 silly resolved        yui: true },
+46 silly resolved     yuidoc: { name: 'YUIDoc', options: [Object] },
+46 silly resolved     gitHead: 'bec31047cb81d74767a5620aadbe8010afd3da53',
+46 silly resolved     homepage: 'https://github.com/yui/yuidoc',
+46 silly resolved     _id: 'yuidocjs@0.5.0',
+46 silly resolved     _shasum: 'e74012a68792c70cf0596fe60fe761e10af59629',
+46 silly resolved     _from: 'yuidocjs@',
+46 silly resolved     _npmVersion: '1.4.28',
+46 silly resolved     _npmUser: { name: 'okuryu', email: 'okuryu@okuryu.com' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'e74012a68792c70cf0596fe60fe761e10af59629',
+46 silly resolved        tarball: 'http://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/yuidocjs/-/yuidocjs-0.5.0.tgz' } ]
+47 info install yuidocjs@0.5.0 into /usr/local/lib
+48 info installOne yuidocjs@0.5.0
+49 verbose lib/node_modules/yuidocjs unbuild
+50 verbose tar unpack /\Volumes\Data\Users\/ollhusba/.npm/yuidocjs/0.5.0/package.tgz
+51 silly lockFile af2eed0f--local-lib-node-modules-yuidocjs tar:///usr/local/lib/node_modules/yuidocjs
+52 verbose lock tar:///usr/local/lib/node_modules/yuidocjs /\Volumes\Data\Users\/ollhusba/.npm/af2eed0f--local-lib-node-modules-yuidocjs.lock
+53 silly lockFile 040b739b-a-npm-yuidocjs-0-5-0-package-tgz tar:///\Volumes\Data\Users\/ollhusba/.npm/yuidocjs/0.5.0/package.tgz
+54 verbose lock tar:///\Volumes\Data\Users\/ollhusba/.npm/yuidocjs/0.5.0/package.tgz /\Volumes\Data\Users\/ollhusba/.npm/040b739b-a-npm-yuidocjs-0-5-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/yuidocjs'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/yuidocjs']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/yuidocjs',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/yuidocjs',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 13.4.0
+59 error command "node" "/usr/local/bin/npm" "-g" "install" "yuidocjs"
+60 error cwd /Volumes/Data/Users/ollhusba/Documents/Repositories/old/Ollie-H.github.io
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/yuidocjs
+64 error fstream_path /usr/local/lib/node_modules/yuidocjs
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/yuidocjs'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
