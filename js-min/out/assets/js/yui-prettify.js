@@ -1,0 +1,1 @@
+YUI().use("node",function(a){var b=a.all(".prettyprint.linenums");if(b.size()){b.each(function(a){var b=a.all("ol li"),c=1;b.each(function(a){a.prepend('<a name="LINENUM_'+c+'"></a>'),c++})});var c=location.hash;location.hash="",c=c.replace("LINE_","LINENUM_"),location.hash=c}});

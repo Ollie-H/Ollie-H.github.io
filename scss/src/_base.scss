@@ -81,10 +81,14 @@ header, footer{
 footer{
     margin: 2em 0 0 0;
     float: left;
-    padding: 10px 0px;
+    padding: 0 0px 10px 0;
     color: #fff;
     text-align: left;
 
+}
+
+.yuno, .yuno iframe{
+    height: 105px;
 }
 
 main{
