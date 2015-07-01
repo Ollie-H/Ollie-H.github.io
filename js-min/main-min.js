@@ -1,1 +1,0 @@
-var cv={init:function(){cv.bindEvents()},bindEvents:function(){$(".toggle-dropdown").click(function(a){var b="Close recent work",c="Open recent work",d=$(this).attr("href");alert(d);var e=$(this).text().indexOf("Open")>-1?b:c;$(this).text(e),$(d).slideToggle("slow"),a.preventDefault()})}};$(document).ready(cv.init);
