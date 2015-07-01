@@ -3,7 +3,6 @@ var React = require('react');
 var About = React.createClass({
 
     componentDidMount: function(){
-        console.log('about componentDidMount', this.props);
     },
 
 	render: function() {
@@ -29,23 +28,30 @@ var About = React.createClass({
 							}
 
                         </div>
+                        
+                    </div>
 
-                        <div className="grid__item">
+                    <h3 className="header--title">
+                        <span className="header--title__text">
+                            Skills
+                        </span>
+                    </h3>
 
-                            <h4>Skills include:</h4>
+                    <div className="grid">
+                        <div className="grid__item skills float--none">
 
-                            <ul>
+                            <ul className="skills__items">
                                 {
-									this.props.info.skills.map(function(skill){
-										return <li>{skill}</li>
-									}, this)	
-								}
+                                    this.props.info.skills.map(function(skill){
+                                        return <li className="skills__item">{skill}</li>
+                                    }, this)    
+                                }
 
                             </ul>
                             
                         </div>
-                        
                     </div>
+
 
                 </div>
             </section>

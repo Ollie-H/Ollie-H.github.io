@@ -11,15 +11,13 @@ img{
     max-width: 100%;
 }
 
-section{
-    padding: 3em 0 3em 0;
-}
-
 .container{
     width: 100%;
     max-width: $max-width;
     margin: 0 auto;
     padding: 0 2em 0px 2em;    
+
+    text-align: center;
 
         &:before,
         &:after{  
@@ -79,7 +77,7 @@ header, footer{
 }
 
 footer{
-    margin: 2em 0 0 0;
+    margin: 4em 0 0 0;
     float: left;
     padding: 0 0px 10px 0;
     color: #fff;
@@ -89,12 +87,16 @@ footer{
 
 .yuno, .yuno iframe{
     height: 105px;
+    border:0; 
+
+   @media screen and (max-width: 768px) {
+        display: none;
+    } 
 }
 
 main{
    float:left;
    width: 100%;
-   padding: 3em 0;
 }
 
 /* Header styles */
@@ -198,6 +200,137 @@ hr{
                 }
         }
     }   
+}
+
+.experience{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+
+        &:after{
+            position: absolute;
+            content: '';
+            top: 150px;
+            margin: auto;
+            display: block;
+            left: 0;
+            right: 0;
+            width: 2px;
+            bottom: 0;
+            background: #222;
+        }
+
+
+        &__item{
+
+            position: relative;
+            float: left;
+            clear: left;
+            text-align: right;
+            width: 50%;
+
+            img{
+                position: absolute;
+                left: 10px;
+                bottom: 10px;
+                max-width: 50px;
+            }
+
+            &:nth-child(odd){
+                float: right;
+                text-align: left;
+                margin: -100px 0 0 0%;
+
+                    img{
+                        left: auto;
+                        right: 10px;
+                    }
+
+                    &:after{
+                        right: auto;
+                        left:0px;
+                    }
+            }
+
+            &:after{
+                position: absolute;
+                content: '';
+                top: 0;
+                bottom:50px;
+                right: 0;
+                width: 50px;
+                height: 2px;
+                margin: auto;
+                background: #222;
+            }
+
+            .grid{
+                position: relative;
+                z-index: 9;
+                background: #fff;
+                border: 2px solid #222;
+                margin: 0 50px 50px;
+                padding: 0 20px;
+                border-radius: 10px;
+            }
+
+        }
+
+
+        @media screen and (max-width: 768px) {
+            width:100%;
+            margin-left:0;
+            margin-right:0;
+
+
+            &:after{
+                bottom: 50px;
+            }       
+
+
+                &__item{
+                    width: 100%;
+                    margin-top: 0!important;
+
+                    &:after{
+                        display: none;
+                    }
+
+                        .grid{
+                            margin: 0 0 20px 0;
+                        }
+                }
+        }
+}
+
+.work{
+
+    &.grid--items-5{
+        .grid__item:nth-child(8){
+            margin-left: 16.5%;
+        }
+    }
+}
+
+.skills{
+
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+    &__items{
+        margin: 0;
+        list-style: none;
+    }
+    &__item{
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        list-style: none;
+        background: #47acae;
+        color: #fff;
+    }
 }
 
 .popup{

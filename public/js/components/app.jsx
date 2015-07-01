@@ -17,6 +17,7 @@ var Header = require('./header.jsx');
 var Footer = require('./footer.jsx');
 var Portfolio = require('./portfolio.jsx');   
 var Experience = require('./experience.jsx');   
+var Education = require('./education.jsx');   
 
 var App = React.createClass({
 
@@ -58,8 +59,9 @@ var App = React.createClass({
 					<About {...this.props} {...this.state} />
 					<Portfolio {...this.props} {...this.state} />
 					<Experience {...this.props} {...this.state} />
-					<Footer {...this.props} {...this.state} />
+					<Education {...this.props} {...this.state} />
 				</main>
+				<Footer {...this.props} {...this.state} />
 			</div>
 		); 
 	}

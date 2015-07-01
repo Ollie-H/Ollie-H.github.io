@@ -9,6 +9,8 @@
   padding-right: 30px;
   @media screen and (max-width: 800px) {
   	width: 100% !important;
+    margin-left: 0!important;
+    padding-right: 0!important;
   }	
   &.work__item{
   	padding-right: 10px;

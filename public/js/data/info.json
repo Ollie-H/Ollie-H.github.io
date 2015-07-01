@@ -1,6 +1,6 @@
 {
     "name": "Ollie Husband",
-    "job_title": "Senior Front End Develope",
+    "job_title": "Senior Front End Developer",
     "mobile": "07988239814",
     "email": "Olliehusband@me.com",
     "github": "https://github.com/Ollie-H/",
@@ -234,6 +234,7 @@
         {
             "company": "Saatchi & Saatchi",
             "role": "Senior Front End Developer",
+            "logo": "/public/img/saatchi-logo.png",
             "url": "http://saatchi.co.uk",
             "type": "Full Time",
             "date": "October 2014 - Present"
@@ -241,6 +242,7 @@
         {
             "company": "Saddington Baynes",
             "role": "Midweight font End Developer",
+            "logo": "/public/img/sadds-logo.jpg",
             "type": "Contract",
             "url": "http://saddingtonbaynes.com",
             "date": "March 2013 – October 2014"
@@ -248,6 +250,7 @@
         {
             "company": "M Digital",
             "role": "Midweight font End Developer",
+            "logo": "/public/img/mdigital-logo.png",
             "type": "Contract",
             "url": "http://morrisons.com",
             "date": "September 2012 – March 2013"
@@ -255,6 +258,7 @@
         {
             "company": "Candi",
             "role": "Inteface Developer",
+            "logo": "/public/img/candi-logo.png",
             "type": "Full time",
             "url": "http://candi.co.uk",
             "date": "November 2011 – November 2012"
@@ -262,10 +266,25 @@
         {
             "company": "Connect Distribution",
             "role": "Front End Developer",
+            "logo": "/public/img/connect-logo.png",
             "type": "Full time",
             "url": "http://connect.co.uk",
             "date": "July 2011 – November 2011"
         }
 
+    ],
+    "education": [
+        {
+            "qualification": "Second Class BSc (Sandwich Award) - Multimedia Computing",
+            "school": "De Montfort University, Leciester",
+            "url": "http://www.dmu.ac.uk/",
+            "date": "September 2007 - June 2011"
+        },
+        {
+            "qualification": "AS/A Level",
+            "school": "Trinity High School, Redditch",
+            "url": "http://www.trinity.worcs.sch.uk/",
+            "date": "September 2005 – June 2007"
+        } 
     ]
 }

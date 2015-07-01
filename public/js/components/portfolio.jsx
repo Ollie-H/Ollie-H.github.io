@@ -36,7 +36,7 @@ var Portfolio = React.createClass({
                         </span>
                     </h3>
 
-                    <article className="grid work">
+                    <article className={'grid work grid--items-'+this.state.work[1].length}>
 
                     	{
                     		this.state.work.map(function(work, x){
@@ -47,7 +47,7 @@ var Portfolio = React.createClass({
 										return (
 											<div className={'grid__item grid__item--1-'+ (x+2) +' work__item'} data-workid={content.id} onClick={this._handleClick}>
 					                            <div className="work__inner">
-					                                <img src={content.thumb} />
+					                                <img src={'public/'+content.thumb} />
 					                                <div className="hover">
 					                                    <span>{content.name}</span>
 					                                </div>

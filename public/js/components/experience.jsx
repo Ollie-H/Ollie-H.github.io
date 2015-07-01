@@ -25,20 +25,22 @@ var Experience = React.createClass({
 
                 			return (
 
-            					<div>
+            					<div className="experience__item">
 	            					<article className="grid ">
 
-				                        <div className="grid__item grid__item--3-3">
+			                            <p>
+                                            Company: <a href={job.url} target="_blank">{job.company}</a>
+                                            <br />
+                                            Role: {job.role}
+                                            <br />
+                                            Type: {job.type}
+                                        </p>
+			                            <p><date>{job.date}</date></p>
 
-				                            <p>{job.company} - {job.role} - {job.type}</p>
-				                            <p><a href={job.url} target="_blank">{job.url}</a></p>
-				                            <date>{job.date}</date>
-
-				                        </div>
+                                        <img src={job.logo} />
 
 				                    </article>
 
-	                   				<hr />
 	                   			</div>
                    			)
 

@@ -26,6 +26,10 @@
         <title>All the Buzzwords - (React/Flux/Parse)</title>
         <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=0" />
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Ollie Husband - Front end developer</title>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,700italic,600italic,600,400italic|Gentium+Basic|Abril+Fatface' rel='stylesheet' type='text/css'>
         <link href="http://vjs.zencdn.net/4.7/video-js.css" rel="stylesheet">
         <script src="http://vjs.zencdn.net/4.7/video.js"></script>
         <meta name="apple-mobile-web-app-capable" content="yes">

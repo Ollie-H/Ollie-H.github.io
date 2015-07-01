@@ -32,18 +32,18 @@ h3{
     @extend .header;
 }
 
-h4, h5{
-    text-align: left;    
+h4, h5{  
     font: 600 1em/1em "open sans";
     margin: 0 0 1em 0;
 }
 
 .header--title{
 
+    float: left;
     @extend .header;
     color: $font-colour;
     width: 60%;
-    margin: 1.666em 20% 1.333em 20%;
+    margin: 5em 20% 1.333em 20%;
     border-top: 2px solid #222;
     @extend .text--center;
 
@@ -51,7 +51,8 @@ h4, h5{
 
         @media screen and (max-width: 768px) {
             width:100%;
-            margin:0;
+            margin-left:0;
+            margin-right:0;
         }
 
         &__text{
