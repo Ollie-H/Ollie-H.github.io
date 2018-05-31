@@ -3334,9 +3334,9 @@ var displayMedia = function displayMedia(asset) {
       autoPlay: "true",
       preload: "auto",
       "data-setup": "{}",
-      poster: "/videos/" + asset.url + "-screenshot.png"
+      poster: "/public/videos/" + asset.url + "-screenshot.png"
     },
-    _react2.default.createElement("source", { src: "/videos/" + asset.url + ".mp4", type: "video/mp4;" })
+    _react2.default.createElement("source", { src: "/public/videos/" + asset.url + ".mp4", type: "video/mp4;" })
   );
 };
 
