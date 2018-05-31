@@ -3331,7 +3331,7 @@ var displayMedia = function displayMedia(asset) {
     {
       className: "video-js vjs-default-skin",
       controls: "",
-      autoplay: "true",
+      autoPlay: "true",
       preload: "auto",
       "data-setup": "{}",
       poster: "/videos/" + asset.url + "-screenshot.png"

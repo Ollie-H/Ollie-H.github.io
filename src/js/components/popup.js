@@ -11,7 +11,7 @@ const displayMedia = asset => {
     <video
       className="video-js vjs-default-skin"
       controls=""
-      autoplay="true"
+      autoPlay="true"
       preload="auto"
       data-setup="{}"
       poster={"/videos/" + asset.url + "-screenshot.png"}
