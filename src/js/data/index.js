@@ -34,14 +34,14 @@ export default {
     {
       id: "9",
       name: "Eagle Moss",
-      thumb: "img/eagle-thumb.png",
+      thumb: "public/img/eagle-thumb.png",
       url: "http://eaglemoss.com",
       description: "",
       case_study:
         "Working for Saatchi & Saatchi, London, I created the front end for the magazine company eaglemoss. Using HTML/JS/Grunt/Less",
       assets: [
         {
-          url: "img/eagle-1.png",
+          url: "public/img/eagle-1.png",
           type: "img"
         }
       ]
@@ -50,21 +50,21 @@ export default {
       id: "6",
       name: "Infiniti",
       url: "http://infiniti.eu/configurator",
-      thumb: "img/infiniti-thumb.png",
+      thumb: "public/img/infiniti-thumb.png",
       description: "",
       case_study:
         "Online responsive configurator for luxury car brand Infiniti with corresponding custom CMS. The front end application was made using front end technologies (JS/BACKBONE, Grunt, sass, require) abd the cms using php/Slimphp, composer and bootstrap. This large scale project involved a complicated backend system and intelligent mechanics on the front end to quickly and efficiently allow the user to configure their vehicle. Backbone/Marrionette MVW architecture was chosen for this project as it allowed me to keep a single page application and communicate easily with the RESTful API I put in place.",
       assets: [
         {
-          url: "img/infiniti-1.png",
+          url: "public/img/infiniti-1.png",
           type: "img"
         },
         {
-          url: "img/infiniti-2.png",
+          url: "public/img/infiniti-2.png",
           type: "img"
         },
         {
-          url: "img/infiniti-3.png",
+          url: "public/img/infiniti-3.png",
           type: "img"
         }
       ]
@@ -72,7 +72,7 @@ export default {
     {
       id: "1",
       name: "Infiniti",
-      thumb: "img/Infiniti VS-Mobile-screenshot.png",
+      thumb: "public/img/Infiniti VS-Mobile-screenshot.png",
       description: "In dealership visualiser for luxury car brand Infiniti",
       case_study:
         "This was a touch screen application written using Front End Tecnologies (JS/CSS/HTML). The main issue I overcame in this project were full support for IE6 and exceeding memory issues that crop up with asset loading.",
@@ -83,15 +83,15 @@ export default {
           type: "video"
         },
         {
-          url: "img/visualiser-1.png",
+          url: "public/img/visualiser-1.png",
           type: "img"
         },
         {
-          url: "img/visualiser-2.png",
+          url: "public/img/visualiser-2.png",
           type: "img"
         },
         {
-          url: "img/visualiser-3.png",
+          url: "public/img/visualiser-3.png",
           type: "img"
         }
       ]
@@ -99,18 +99,18 @@ export default {
     {
       id: "2",
       name: "Honda Accessories",
-      thumb: "img/honda-thumb.png",
+      thumb: "public/img/honda-thumb.png",
       url: "http://www.civictoureraccessories.com/",
       description: "",
       case_study:
         "Parallax microsite for Honda accesssories created using front end technologies (JS, CSS, HTML, JSON). Including locale specific pricing and languages using JSON as data storage. Basic mobile solutions using responsive JS and media queries.",
       assets: [
         {
-          url: "img/honda-access-1.png",
+          url: "public/img/honda-access-1.png",
           type: "img"
         },
         {
-          url: "img/honda-access-2.png",
+          url: "public/img/honda-access-2.png",
           type: "img"
         }
       ]
@@ -119,14 +119,14 @@ export default {
     {
       id: "10",
       name: "The door",
-      thumb: "img/saatchi-thumb.png",
+      thumb: "public/img/saatchi-thumb.png",
       url: "http://thedoor.saatchi.co.uk",
       description: "",
       case_study:
         "Working for Saatchi & Saatchi, London, I created the online application for the saatchi grad scheme. Using JS/backbone/Underscore/grunt/sass",
       assets: [
         {
-          url: "img/thedoor-1.png",
+          url: "public/img/thedoor-1.png",
           type: "img"
         }
       ]
@@ -134,18 +134,18 @@ export default {
     {
       id: "3",
       name: "Saddington Baynes",
-      thumb: "img/sadds-3.png",
+      thumb: "public/img/sadds-3.png",
       url: "http://saddingtonbaynes.com",
       description: "",
       case_study:
         "Custom agency site and corresponding CMS for agency Saddington Baynes. Built using (JS, SASS, HTML, PHP, MySQL). The site was very well recieved and on launch recieved a honourable mention award from Awwwards after recieving an average judge score of 8/10 for content/design and build.",
       assets: [
         {
-          url: "img/sadds-1.png",
+          url: "public/img/sadds-1.png",
           type: "img"
         },
         {
-          url: "img/sadds-2.png",
+          url: "public/img/sadds-2.png",
           type: "img"
         }
       ]
@@ -153,22 +153,22 @@ export default {
     {
       id: "4",
       name: "Leland Music",
-      thumb: "img/leland-thumb.png",
+      thumb: "public/img/leland-thumb.png",
       url: "http://www.lelandmusic.co.uk/",
       description: "",
       case_study:
         "Custom portfolio site for independent music agency Leland Music. Built using front end technologies (JS, CSS, HTML) and backend technolgies (PHP, MySQL).",
       assets: [
         {
-          url: "img/leland-1.png",
+          url: "public/img/leland-1.png",
           type: "img"
         },
         {
-          url: "img/leland-2.png",
+          url: "public/img/leland-2.png",
           type: "img"
         },
         {
-          url: "img/leland-3.png",
+          url: "public/img/leland-3.png",
           type: "img"
         }
       ]
@@ -176,22 +176,22 @@ export default {
     {
       id: "5",
       name: "David Titlow",
-      thumb: "img/titlow-thumb.png",
+      thumb: "public/img/titlow-thumb.png",
       url: "http://davidtitlow.co.uk",
       description: "",
       case_study:
         "Custom portfolio site celebrity photographer David Titlow built using JS, SASS, HTML, PHP. Site uses a scroll hijacking method of navigation to get around the page.",
       assets: [
         {
-          url: "img/titlow-1.png",
+          url: "public/img/titlow-1.png",
           type: "img"
         },
         {
-          url: "img/titlow-2.png",
+          url: "public/img/titlow-2.png",
           type: "img"
         },
         {
-          url: "img/titlow-3.png",
+          url: "public/img/titlow-3.png",
           type: "img"
         }
       ]
@@ -199,21 +199,21 @@ export default {
     {
       id: "7",
       name: "Board Intelligence",
-      thumb: "img/board-thumb.png",
+      thumb: "public/img/board-thumb.png",
       url: "http://www.boardintelligence.co.uk/",
       description: "",
       case_study: "Custom resonsive site build for board intelligence.",
       assets: [
         {
-          url: "img/board-1.png",
+          url: "public/img/board-1.png",
           type: "img"
         },
         {
-          url: "img/board-2.png",
+          url: "public/img/board-2.png",
           type: "img"
         },
         {
-          url: "img/board-3.png",
+          url: "public/img/board-3.png",
           type: "img"
         }
       ]
@@ -221,22 +221,22 @@ export default {
     {
       id: "8",
       name: 'My Codepen"s',
-      thumb: "img/codepen-thumb.png",
+      thumb: "public/img/codepen-thumb.png",
       url: "http://codepen.io/OllieHDev/",
       description: "",
       case_study:
         'I love creating and trying out new things with code to see its limtations and what can be achieved. So codepen has been a big help along the way. Here"s a few of my more favourite codepens <br /> <a href="http://codepen.io/OllieHDev/live/fkaig">Time with words</a> <br /> <a href="http://codepen.io/OllieHDev/live/fvdoh">CSS switches</a> <br /> <a href="http://codepen.io/OllieHDev/live/owIG">CSS Camera</a> <br /> <a href="http://codepen.io/OllieHDev/live/iCjIJ">Rodeo competition winner 2013</a>',
       assets: [
         {
-          url: "img/codepen-1.png",
+          url: "public/img/codepen-1.png",
           type: "img"
         },
         {
-          url: "img/codepen-2.png",
+          url: "public/img/codepen-2.png",
           type: "img"
         },
         {
-          url: "img/codepen-3.png",
+          url: "public/img/codepen-3.png",
           type: "img"
         }
       ]
@@ -254,7 +254,7 @@ export default {
     {
       company: "Williams Lea / TAG",
       role: "Senior Front End Developer",
-      logo: "img/wlt.png",
+      logo: "public/img/wlt.png",
       url: "http://wlt.com",
       type: "Contract",
       date: " March 2016 – May 2016"
@@ -262,7 +262,7 @@ export default {
     {
       company: "BBC",
       role: "Software Developer",
-      logo: "img/bbc-logo.png",
+      logo: "public/img/bbc-logo.png",
       url: "http://bbc.co.uk",
       type: "Contract",
       date: "August 2015 - March 2016"
@@ -270,7 +270,7 @@ export default {
     {
       company: "Saatchi & Saatchi",
       role: "Senior Front End Developer",
-      logo: "img/saatchi-logo.png",
+      logo: "public/img/saatchi-logo.png",
       url: "http://saatchi.co.uk",
       type: "Full Time",
       date: "October 2014 - August 2015"
@@ -278,7 +278,7 @@ export default {
     {
       company: "Saddington Baynes",
       role: "Midweight font End Developer",
-      logo: "img/sadds-logo.jpg",
+      logo: "public/img/sadds-logo.jpg",
       type: "Contract",
       url: "http://saddingtonbaynes.com",
       date: "March 2013 – October 2014"
@@ -286,7 +286,7 @@ export default {
     {
       company: "M Digital",
       role: "Midweight font End Developer",
-      logo: "img/mdigital-logo.png",
+      logo: "public/img/mdigital-logo.png",
       type: "Contract",
       url: "http://morrisons.com",
       date: "September 2012 – March 2013"
@@ -294,7 +294,7 @@ export default {
     {
       company: "Candi",
       role: "Inteface Developer",
-      logo: "img/candi-logo.png",
+      logo: "public/img/candi-logo.png",
       type: "Full time",
       url: "http://candi.co.uk",
       date: "November 2011 – November 2012"
@@ -302,7 +302,7 @@ export default {
     {
       company: "Connect Distribution",
       role: "Front End Developer",
-      logo: "img/connect-logo.png",
+      logo: "public/img/connect-logo.png",
       type: "Full time",
       url: "http://connect.co.uk",
       date: "July 2011 – November 2011"
