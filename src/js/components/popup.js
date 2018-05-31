@@ -29,7 +29,7 @@ var Popup = props => {
   return (
     <div className="popup popup--open" style={{ animation: "unset" }}>
       <span className="popup__close" onClick={props.handleClose}>
-        <img src="/img/close.png" />
+        <img src="/public/img/close.png" />
       </span>
       <div style={{ overflow: "auto", maxHeight: "100vh" }}>
         <div className="container">
