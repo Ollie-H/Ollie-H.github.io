@@ -2598,13 +2598,14 @@ var Header = function Header(props) {
           "CV: ",
           _react2.default.createElement(
             "a",
-            { href: "/docs/cv.pdf" },
+            { href: "/public/docs/cv.pdf" },
             "PDF"
           ),
-          " | ",
+          " |",
+          " ",
           _react2.default.createElement(
             "a",
-            { href: "/docs/cv.docx" },
+            { href: "/public/docs/cv.docx" },
             "DOC"
           )
         ),

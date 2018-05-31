@@ -17,7 +17,8 @@ const Header = props => (
 
       <div className="contact">
         <span>
-          CV: <a href="/docs/cv.pdf">PDF</a> | <a href="/docs/cv.docx">DOC</a>
+          CV: <a href="/public/docs/cv.pdf">PDF</a> |{" "}
+          <a href="/public/docs/cv.docx">DOC</a>
         </span>
         <br />
         <span>
