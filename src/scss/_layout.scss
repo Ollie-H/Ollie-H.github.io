@@ -1,0 +1,189 @@
+//----------- Layout ------------------//
+//-------------------------------------//
+
+
+main{
+   float:left;
+   width: 100%;
+   background-color: #fff; 
+   min-height: 80vh;
+   padding-bottom: 3em;
+}
+
+
+.header{
+    font: 600 1.333em/1.333em $fontname;    
+    text-transform: uppercase;
+}
+
+
+
+footer{
+    margin: 0em 0 0 0;
+    float: left;
+    padding: 0 0px 10px 0;
+    color: #fff;
+    text-align: left;
+
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 2em 0px 2em;    
+
+    text-align: center;
+
+        &:before,
+        &:after{  
+            content: "";
+            display:table;
+            clear: both;
+        }
+        @media screen and (max-width: 768px) {
+            width:100%;
+        }
+}
+
+.app{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: left 0.4s ease-in-out;
+    background: #fff;
+
+        &.slide-in{
+            left: -250px;
+        }    
+
+        &.fade-in{
+            opacity: 0;
+            animation: FADE-IN 0.8s;
+            animation-fill-mode: forwards;  
+        }
+}
+
+.navigation{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    top:0;
+    background:#12A9B2;
+    width:250px;
+    height: 100%;
+
+        a {
+            border: 0;
+            float: left;
+            width: 100%;
+            padding: 15px;
+            clear: left;
+            border-bottom: 1px dotted #fff;
+
+                &:hover{
+                    background: #fff;
+                    color: #333;
+                }
+        }
+}
+
+header, footer{
+   float: left;
+   width: 100%;
+   background: $primary;
+   padding: 2em 0;
+   text-align: center;
+
+        span, a{
+            color: $secondary;
+            border-color: $secondary;
+            font-size: 0.9em;
+        }
+
+        @media screen and (max-width: 768px) {
+            width:100%;
+        }
+
+        &.banner{
+            position: relative;
+            display: table;
+            background: url('../img/cover.jpg') no-repeat;
+            background-size: cover;
+                .container{
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                .arrow{
+                    position: absolute;
+                    display: block;
+                    z-index: 999; 
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 8%;
+                    width: 70px;
+                    height: 70px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    margin: 25% auto 0 auto;
+                    background: rgba(0,0,0,0.4);
+                        img{
+                            padding: 25px 0 0 0;
+                        }
+                }
+        }
+}
+
+
+.grid__item{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  float: left;
+  padding-right: 30px;
+  @media screen and (max-width: 800px) {
+  	width: 100% !important;
+    margin-left: 0!important;
+    padding-right: 0!important;
+  }	
+  &.work__item{
+  	padding-right: 10px;
+  	padding-bottom: 10px;
+  }
+  @for $item1 from 1 through 5{
+    @for $item from 1 through $item1{ 
+      &.grid__item--#{$item}-#{$item1}{
+        $margin : 0;
+        width: 100% / ($item1 / $item) - $margin;
+        @if $item == $item1{
+          margin-right:0;
+          border:0;
+          &:after{
+            content: "";
+            display: table;
+            clear: left;
+          }
+        } 
+      }
+    }
+  }
+  &.grid__item--last,
+  &.grid__item--full{
+     margin-right:0;
+     border:0;
+     &:after{
+       content: "";
+       display: table;
+       clear: left;
+     }
+  }
+  &.grid__item--first{
+  	clear: left;
+  }
+  &.no-border{
+    border:0;
+  }
+ }
