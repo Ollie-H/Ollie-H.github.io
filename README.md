@@ -7,6 +7,4 @@
 * npm run serve
 
 # Data
-Data can be found in src/data/index.js
-
 View on: [http://localhost:5000]([http://localhost:5000)
