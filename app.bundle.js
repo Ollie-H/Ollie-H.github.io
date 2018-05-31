@@ -3351,7 +3351,7 @@ var Popup = function Popup(props) {
     _react2.default.createElement(
       "span",
       { className: "popup__close", onClick: props.handleClose },
-      _react2.default.createElement("img", { src: "/img/close.png" })
+      _react2.default.createElement("img", { src: "/public/img/close.png" })
     ),
     _react2.default.createElement(
       "div",
